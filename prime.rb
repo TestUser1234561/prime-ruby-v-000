@@ -12,12 +12,12 @@ def prime?(num)
     i = 5
     w = 2
 
-    while i * i <= n:
-        if n % i == 0:
-            return False
-
-        i += w
-        w = 6 - w
-
+    while i * i <= n do
+      if(n % i == 0)
+        return False
+      end
+      i += w
+      w = 6 - w
+    end
     return True
 end
