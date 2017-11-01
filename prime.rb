@@ -1,12 +1,13 @@
 def prime?(num)
-  if n == 2:
-        return True
-    if n == 3:
-        return True
-    if n % 2 == 0:
-        return False
-    if n % 3 == 0:
-        return False
+  if(n == 2)
+    return True
+  elsif(n == 3)
+    return True
+  elsif(n % 2 == 0)
+    return False
+  elsif(n % 3 == 0)
+    return False
+  end
 
     i = 5
     w = 2
