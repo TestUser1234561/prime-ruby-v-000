@@ -1,5 +1,7 @@
 def prime?(n)
-  if(n == 2)
+  if(n.negative?)
+    return false
+  elsif (n == 2)
     return true
   elsif(n == 3)
     return true
