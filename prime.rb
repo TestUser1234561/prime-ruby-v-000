@@ -1,6 +1,8 @@
 def prime?(n)
   if(n.negative?)
     return false
+  elsif (n == 1)
+    return false
   elsif (n == 2)
     return true
   elsif(n == 3)
