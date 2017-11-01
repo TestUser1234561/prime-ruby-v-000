@@ -1,12 +1,12 @@
 def prime?(n)
   if(n == 2)
-    return True
+    return true
   elsif(n == 3)
-    return True
+    return true
   elsif(n % 2 == 0)
-    return False
+    return false
   elsif(n % 3 == 0)
-    return False
+    return false
   end
 
     i = 5
@@ -14,10 +14,10 @@ def prime?(n)
 
     while i * i <= n do
       if(n % i == 0)
-        return False
+        return false
       end
       i += w
       w = 6 - w
     end
-    return True
+    return true
 end
